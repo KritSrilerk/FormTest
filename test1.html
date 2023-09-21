@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="aa">Form ฟอร์ม 1</h1>
+    <h2 class="aa" id="a1">ทดสอบ</h2>
+    <hr><br>
+    <form action="test2.html" method="POST" enctype="multipart/form-data">
+        <label for="fname">ชื่อ - สกุล : </label>
+        <input type="text" name="fname" placeholder="ชื่อคุณนั้นแหละ!">
+        <br><br>
+        <label for="f2">ชื่อเล่น : </label>
+        <input maxlength="10" type="text" name="nname" placeholder="ชื่อเล่นคุณนั้นแหละ !">
+        <br><br>
+        <label for="pwd">รหัสผ่าน : </label>
+        <input minlength="8" maxlength="15" type="password" name="pwd" placeholder="รหัสผ่านต้อง 8-15 ตัว!">
+        <br><br>
+        <label for="sex">เพศ : </label>
+        <input type="radio" name="sex" value="M" checked> ชาย
+        <input type="radio" name="sex" value="W"> หญิง
+        <input type="radio" name="sex" value="MW" > อื่่นๆ
+        <br><br>
+        <label for="reg">ศาสนา : </label>
+        <input type="radio" name="reg" value="1" checked> พุทธ
+        <input type="radio" name="reg" value="2"> คริสต์
+        <input type="radio" name="reg" value="3"> อิสลาม
+        <input type="radio" name="reg" value="4"> ฮินดู
+        <input type="radio" name="reg" value="5"> ซิกส์
+        <input type="radio" name="reg" value="6"> อื่่นๆ
+        <br><br>
+        <label for="food">อาหารที่ชอบ : </label>
+        <input type="checkbox" name="food1" value="ไก่"> ข้าวมันไก่
+        <input type="checkbox" name="food2" value="หมู"> ข้าวมันหมู
+        <input type="checkbox" name="food3" value="เนื้อ"> ข้าวมันเนื้อ
+        <input type="checkbox" name="food4" value="อื่่นๆ"> อื่่นๆ
+        <br><br>
+        <label for="major">สาขาวิชา : </label>
+        <select name="major">
+            <option value="com" selected>คอมพิวเตอร์</option>
+            <option value="account" >บัญชี</option>
+            <option value="market">การตลาด</option>
+            <option value="enginer">วิศวะโยธา</option>
+        </select>
+        <br><br>
+        <label for="major">คณะ : </label>
+        <select name="major" size="4">
+            <option value="a" selected>ศิลปศาสตร์</option>
+            <option value="b">บริหาร</option>
+            <option value="c">วิศวะ</option>
+            <option value="d">นิติศาสตร์</option>
+            <option value="e">ครุศาสตร์</option>
+        </select>
+        <br><br>
+        <label for="note">หมายเหตุ : </label>
+        <textarea name="note" id="" cols="50" rows="5"></textarea>
+        <br><br>
+        <label for="age">อายุ : </label>
+        <input type="number" name="age" min="1" max="150" >
+        <br><br>
+        <label for="bdate">วันเกิด : </label>
+        <input type="date" name="bdate">
+        <input type="month" name="bmont">
+        <br><br>
+        <label for="person">แนบไฟล์ส่วนตัว : </label>
+        <input type="file" name="person">
+        <br><br>
+        <input type="submit" value="ตกลง">
+        <input type="reset" value="ยกเลิก">
+        <br><br>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,300&family=Mali&family=Prompt&display=swap');
+.aa{
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+#a1{
+    color: red;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: green;
+    border: none;
+}
+.bb{
+    background-color: red;
+}
+legend{
+    color: blue;
+    font-weight: bold;
+}
+fieldset{
+    border-color: rgb(70, 241, 199);
+}
+.hi{
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(127, 255, 212,0.473);
+    font-family: 'Prompt', sans-serif;
+    font-size:  14px; ;
+}
+.hello{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(77, 245, 245, 0.473);
+    font-family: 'Prompt', sans-serif;
+    font-size:  14px; ;
+}
+.imgf{
+    width: 150px;
+}
+.imgb,.aaa{
+    text-align:center ;
+}
+.fas{
+    color: rgba(255, 115, 138, 0.863);
+    font-size: 75px;
+    
+}
